@@ -1,0 +1,23 @@
+{
+  "name": "rest-rant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoreyNotice/Rest-rant.git"
+  },
+  "author": "CoreyN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoreyNotice/Rest-rant/issues"
+  },
+  "homepage": "https://github.com/CoreyNotice/Rest-rant#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
