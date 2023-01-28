@@ -11,7 +11,7 @@ function error404 () {
           <main>
               {/* <h1>404: PAGE NOT FOUND</h1> */}
               <div>
-                 <img src= '/images/404.webp'   alt= '404 image' />
+                 <img src= '/images/404.webp'   alt= '404 image' width='100%' hieght='100%' />
               </div>
               <div>
                     Photo by <a href="ROBYN COLLINGE">ROBYN COLLINGE</a> on <a href="https://www.getfeedback.com/resources/ux/fantastically-funny-404-pages/">Unsplash</a>
