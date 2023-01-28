@@ -6,7 +6,7 @@ function error404 () {
       <Def>
          <head>
                
-                <link rel="stylesheet" href="/css/style2.css"/>
+                <link rel="stylesheet" href="/css/style.css"/>
             </head>
           <main>
               {/* <h1>404: PAGE NOT FOUND</h1> */}
