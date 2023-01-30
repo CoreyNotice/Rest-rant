@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const places= require('../models/places')
-
+//hHOME PAGE
 router.get('/', (req, res) => {
     // let places = [{
     //     name: 'H-Burgers',
@@ -15,18 +15,14 @@ router.get('/', (req, res) => {
     //     cuisines: 'Tea, Bakery',
     //     pic: 'images/cakepic.jpg'
     //   }]
-      
-
-    res.render('places/index',{places})
-
+      res.render('places/index',{places})
 })
-
+//NEW PAGE
 router.get('/new', (req, res) => {
-    
     res.render('places/new')
   })
   
- 
+ //POST TO PLACES PAGE
     router.post('/', (req, res) => {
       // console.log(req.body)
       if (!req.body.pic) {
@@ -43,6 +39,18 @@ router.get('/new', (req, res) => {
       anArray.push(req.body)
       res.redirect('/places')
     })
+    //SHOW
+    router.get('/:id', (req, res) => {
+      let id = Number(req.params.id)
+      if (isNaN(id)) {
+        res.render('error404')
+      }
+      else {
+        res.render('places/show', { place: places[id] })
+
+      }
+    })
+    
     
    
 

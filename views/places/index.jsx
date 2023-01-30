@@ -3,20 +3,25 @@ const Def = require('../default')
 
 
 function index (data) {
-  let placesFormatted = Object.keys((place) => {
+  let placesFormatted = Object.keys((place, index) => {
     return (
-      <div className='col-sm-6'>
-        <h2>{place.name}</h2>
-        <p className='text-center'>
+      <div className="col-sm-6">
+        <h2>
+          <a href={`/places/${index}`} >
+            {place.name}
+          </a>
+        </h2>
+        <p className="text-center">
           {place.cuisines}
         </p>
-        <img src={place.pic} alt={place.name} width='25%' height='25%'/>
-        <p className='text-center'>
-          Located in {place.city},{place.state}
+        <img src={place.pic} alt={place.name} />
+        <p className="text-center">
+          Located in {place.city}, {place.state}
         </p>
       </div>
     )
   })
+  
   return (
     <Def>
         <main>
