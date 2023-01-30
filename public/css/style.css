@@ -3,8 +3,38 @@ h1 {
     color: rgb(27, 14, 112);
   }
   body{
-    background-color:blueviolet
+    background-color:rgb(146, 78, 38);
+    text-align: center;
   }
+  main{
+    margin-right:20px;
+    margin-left: 20px;
+    background-color: bisque;
+  }
+  nav {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: white;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: pink;
+    text-decoration: none;
+}
 
 
 

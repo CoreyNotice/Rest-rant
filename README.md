@@ -8,3 +8,4 @@ problem part 7 #5. Is PLace an object or array?
   let anArray = Array.from(places);
       anArray.push(req.body) 
       So I use that code help since complier was giving a place.push is not a function error, it does console.log info entered from new pg. 
+      REST-Rant Part 5 completed 
