@@ -45,11 +45,15 @@ router.get('/new', (req, res) => {
       if (isNaN(id)) {
         res.render('error404')
       }
+      else if (!places[id]) {
+        res.render('error404')
+      }
       else {
         res.render('places/show', { place: places[id] })
 
       }
     })
+    
     
     
    

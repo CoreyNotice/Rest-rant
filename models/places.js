@@ -1,4 +1,4 @@
-let places = [{
+module.exports = [{
     name: 'H-Burgers',
     city: 'Queens',
     state: 'NY',

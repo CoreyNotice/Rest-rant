@@ -12,4 +12,3 @@ function show () {
 }
 
 module.exports = show
-Object.keys
