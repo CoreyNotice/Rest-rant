@@ -9,16 +9,16 @@ function show (data) {
             {data.place.image}
             <p>{data.place.cuisine}</p>
           </main>
-         <div>
           <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
   Edit
 </a>     
- </div>
+<br/>
 <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
-  <label htmlFor='Delete'>Delete</label>
-  <input type="submit" className="btn btn-danger" name='Delete'/>
+  <button type="submit" className="btn btn-danger">
+    Delete
+  </button>
 </form> 
-
+ 
         </Def>
     )
 }
