@@ -9,3 +9,13 @@ problem part 7 #5. Is PLace an object or array?
       anArray.push(req.body) 
       So I use that code help since complier was giving a place.push is not a function error, it does console.log info entered from new pg. 
       REST-Rant Part 5 completed 
+       REST-Rant Part 6 :
+       Part Three: Fill Out the Show Page
+       may need to add 
+       2. Add a Rating section. We will come back to this at a later time. For now, just add the text currently unrated.
+
+3. Add a Comments section. This will be blank for now, but we will revisit it later. For now, add No comments yet! or something similar.
+
+4. Test your code. It will have all of your own styles and the content included here:
+Part Four: Implement Method Override IM HERE
+Activity (be-5-rest-rant-part-6) not sure delete or edit button not appering
