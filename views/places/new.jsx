@@ -5,6 +5,11 @@ function new_form () {
     return (
         <Def>
           <main>
+          <div className="form-group">
+  <label for="founded">Founded Year</label>
+  <input className="form-control" id="founded" name="founded" />
+</div>
+
             <h1>Add a New Place</h1>
             <form method="POST" action="/places">
             <div className='form-group'>

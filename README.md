@@ -19,3 +19,6 @@ problem part 7 #5. Is PLace an object or array?
 4. Test your code. It will have all of your own styles and the content included here:
 Part Four: Implement Method Override IM HERE
 Activity (be-5-rest-rant-part-6) edit dnt appaer to happen, redirect to 404 after edit
+REST-Rant Part 7 Submission
+
+'places/index', 
