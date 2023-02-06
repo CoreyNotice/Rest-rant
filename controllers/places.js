@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
   db.Place.find()
   .then((places)=>{
   
-  res.status(303).redirect( { places })
+  res.status(200).render('places/index' , { places })
 })
 .catch(err=>{
   console.log(err)

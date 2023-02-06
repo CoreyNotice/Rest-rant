@@ -22,3 +22,4 @@ Activity (be-5-rest-rant-part-6) edit dnt appaer to happen, redirect to 404 afte
 REST-Rant Part 7 Submission
 
 'places/index', 
+REST-Rant Part 9 
