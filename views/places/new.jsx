@@ -7,7 +7,7 @@ function new_form () {
           <main>
           <div className="form-group">
   <label for="founded">Founded Year</label>
-  <input className="form-control" id="founded" name="founded" />
+  <input className="form-control" id="founded" name="founded" type= 'number' value='{new Date().getFullYear()}' />
 </div>
 
             <h1>Add a New Place</h1>
