@@ -23,3 +23,8 @@ REST-Rant Part 7 Submission
 
 'places/index', 
 REST-Rant Part 9  
+node seeders/seed-comments.js
+Make sure there is a submit button that, when pressed, reaches the stub route.
+Part 10: Adding commentary: rants and raves
+Part Four: Implement the Comment Form
+Check the data in the req.body object to make sure everything is coming through. !!not sure how to route form on comment page!!
