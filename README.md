@@ -30,4 +30,4 @@ Part Four: Implement the Comment Form
 4.& 5.Check the data in the req.body object to make sure everything is coming through. !!not sure how to route form on comment page!!
 
 
-to seed  node seeders/seed-places.js in terminal 
+to seed  node seeders/seed-places.js in terminal dca
